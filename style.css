@@ -25,7 +25,15 @@ body{
     margin: 20px auto;
 
     list-style-type: circle;
+    display: inline-block;
+        text-align:left;
 }
+
+.ilu-list{
+    list-style-type: circle;
+    display: inline-block;
+        text-align: center;
+    }
 
 .mel-text{
     text-align: center;
