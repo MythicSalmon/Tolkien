@@ -1,6 +1,7 @@
 .bg-image{
     background-image: url("https://images.unsplash.com/photo-1570610155223-66279ba81b41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");   
-    opacity: 0.2;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 .head{
