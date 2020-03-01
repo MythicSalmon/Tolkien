@@ -21,4 +21,6 @@
     width: 500px;
     margin: 20px auto;
     z-index: 99;
+    opacity: 1;
+        filter:alpha(opacity=100);
 }
