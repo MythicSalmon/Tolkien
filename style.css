@@ -24,6 +24,7 @@ body{
     width: 500px;
     margin: 20px auto;
 
+    list-style-type: circle;
 }
 
 .mel-text{
@@ -33,6 +34,7 @@ body{
     width: 500px;
     margin: 20px auto;
 
+    list-style-type: circle;
 }
 
 .ME-text{
@@ -42,4 +44,5 @@ body{
     width: 500px;
     margin: 20px auto;
 
+    list-style-type: circle;
 }
