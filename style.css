@@ -12,6 +12,7 @@
 .head{
     text-align: center;
     background-color: rgb(241, 205, 158);
+    color: black;
     text-align: center;
     padding: 50px;
     width: 500px;
@@ -20,7 +21,7 @@
 }
 .ilu-text{
     text-align: center;
-  
+    color: black;
     padding: 20px 0 20px 10px;
     width: 500px;
     margin: 20px auto;
