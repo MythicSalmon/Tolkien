@@ -23,10 +23,6 @@ body{
     padding: 20px 0 20px 10px;
     width: 500px;
     margin: 20px auto;
-
-    list-style-type: circle;
-    display: inline-block;
-        text-align:left;
 }
 
 .ilu-list{
@@ -45,6 +41,12 @@ body{
     list-style-type: circle;
 }
 
+.mel-list{
+    list-style-type: circle;
+    display: inline-block;
+        text-align: center;
+    }
+
 .ME-text{
     text-align: center;
     color: black;
@@ -54,3 +56,9 @@ body{
 
     list-style-type: circle;
 }
+
+.ME-list{
+    list-style-type: circle;
+    display: inline-block;
+        text-align: center;
+    }
