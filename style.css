@@ -1,9 +1,13 @@
 .bg-image{
     background-image: url("https://images.unsplash.com/photo-1570610155223-66279ba81b41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");   
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+   opacity: .5;
 }
 
 .head{
     text-align: center;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
 }
