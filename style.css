@@ -10,7 +10,7 @@
         background-attachment: fixed;
         background-size: 100%;
         opacity: 0.4;
-        filter:alpha(opacity=80);
+        filter:alpha(opacity=40);
     }
 
 .head{
