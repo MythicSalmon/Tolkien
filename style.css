@@ -15,7 +15,7 @@ body{
 .religions{
     display: flex;
     justify-content: space-around;
-    
+    border: 1px solid ;
     padding: 40px 0;
 }
 
