@@ -15,7 +15,6 @@ body{
 .religions{
     display: flex;
     justify-content: space-around;
-    border: 1px solid ;
     padding: 40px 0;
 }
 
@@ -35,8 +34,6 @@ body{
     padding: 5px 0 20px 10px;
     width: 500px;
     margin: 20px auto;
-
-    border: 1px solid ;
 }
 
 .ilu-list{
