@@ -50,9 +50,15 @@ html, body {
 	width: 100%;
 }
 
-	.ilutext{
+	.ilutextblock{
+		display: flex;
+		justify-content: center;
 		width: 100%;
+		text-align: center;
 	}
+ 		.ilutext{ 
+	 	width: 200px;
+		}	
 	.iluimage{
 		width: 100%;
 	}
