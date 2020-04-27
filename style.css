@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
       }
-
+/* Main Opening Page*/
 .openpage{
    width: 100%;
    height: 100%;
@@ -39,95 +39,55 @@ html, body {
 }
 
 
-  
+.religionblocks{
+	
+}  
 
-
-.religions{
-  display: flex;
-  justify-content: space-around;
-  padding: 40px 0;
+/* Illuvatarism Block */
+.iluvatarism{
+	display: flex;
+	height: 300px;
+	width: 100%;
 }
 
-.head{
-  text-align: center;
-  background-color: rgb(241, 205, 158, 0.5);
-  color: black;
-  text-align: center;
-  padding: 50px;
-  width: 500px;
-  margin: 20px auto;
+	.ilutext{
+		width: 100%;
+	}
+	.iluimage{
+		width: 100%;
+	}
+
+/* Melkorism Block */
+.melkorism{
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 100%;
 }
 
-.ilu-text{
-  text-align: center;
-  color: black;
-  padding: 5px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
+	.meltext{
+		width: 100%;
+	}
+	.melimage{
+		width: 100%;
+	}
+
+/* Cultures Block */
+.cultures{
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 100%;
 }
+	.cultext{
+		width: 100%;
+	}
+	.culimage{
+		width: 100%;
+	}
 
-.ilu-list{
-  list-style-type: circle;
-  display: inline-block;
-      text-align: center;
-  }
 
-.mel-text{
-  text-align: center;
-  color: black;
-  padding: 20px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
-
-  list-style-type: circle;
-}
-
-.mel-list{
-  list-style-type: circle;
-  display: inline-block;
-      text-align: center;
-  }
-
-.ME-text{
-  text-align: center;
-  color: black;
-  padding: 20px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
-
-  list-style-type: circle;
-}
-
-.ME-list{
-  list-style-type: circle;
-  display: inline-block;
-      text-align: center;
-  }
-
-.beliefs{
-  text-align: center;
-  color: black;
-  padding: 20px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
-  }
-
-.dictionary{
-  text-align: center;
-  color: black;
-  padding: 20px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
-}
-
-.fairuse{
-  text-align: center;
-  color: black;
-  padding: 20px 0 20px 10px;
-  width: 500px;
-  margin: 20px auto;
-}
-
+/* Text for fair use page */
 .fairusetext{
   text-align: center;
   color: black;
