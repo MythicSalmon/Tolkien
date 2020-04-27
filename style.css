@@ -46,19 +46,15 @@ html, body {
 /* Illuvatarism Block */
 .iluvatarism{
 	display: flex;
+	justify-content: center;
 	height: 300px;
 	width: 100%;
 }
-
-	.ilutextblock{
-		display: flex;
-		justify-content: center;
+	.ilutext{
 		width: 100%;
-		text-align: center;
-	}
- 		.ilutext{ 
-	 	width: 200px;
-		}	
+	
+	text-align: center;	
+}	
 	.iluimage{
 		width: 100%;
 	}
