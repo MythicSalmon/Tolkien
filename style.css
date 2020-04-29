@@ -84,6 +84,7 @@ html, body {
 }
 	.cultext{
 		width: 100%;
+		text-align: center;
 	}
 	.culimage{
 		width: 100%;
