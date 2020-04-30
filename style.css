@@ -6,6 +6,42 @@ html, body {
   background-position: center;
   background-size: cover;
       }
+/* Menu Bar*/
+
+.button{
+	width: 150px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
 
 /* Main Opening Page*/
 .openpage{
@@ -32,6 +68,7 @@ html, body {
   color: white;
   text-align: center;
   width: 500px;
+  
   
 }
 
@@ -102,6 +139,19 @@ html, body {
 	.culimage{
 		width: 50%;
 	}
+
+.bottompage{
+	text-align: center;
+	
+}
+
+.Tbeliefs{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
 
 /* Text for Illuvatarism Page */
 .ilupage{
