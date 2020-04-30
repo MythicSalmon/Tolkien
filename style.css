@@ -103,6 +103,13 @@ html, body {
 		width: 50%;
 	}
 
+/* Text for Illuvatarism Page */
+.ilupage{
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
 
 /* Text for fair use page */
 .fairusetext{
