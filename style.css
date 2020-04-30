@@ -123,6 +123,11 @@ html, body {
 	.melimage{
 		width: 50%;
 	}
+.melimage{
+			width: 50%;
+		text-align: center;
+		padding-top: 50px;
+}
 
 /* Cultures Block */
 .cultures{
