@@ -5,7 +5,15 @@ html, body {
   background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
   background-position: center;
   background-size: cover;
-      }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 /* Menu Bar*/
 
 .button{
@@ -16,12 +24,10 @@ html, body {
 	font-size: 16px;
 	font-weight: bold;
 }
-
 .dropdown{
 	position: relative;
 	display: inline-block;
 }
-
 .dropdown-content{
   display: none;
   position: absolute;
@@ -29,19 +35,17 @@ html, body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-	
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown:hover .dropdown-content{
 	display: block;
 }
+
 
 /* Main Opening Page*/
 .openpage{
@@ -63,70 +67,58 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-
 .header{
   color: white;
   text-align: center;
   width: 500px;
-  
-  
 }
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-.religionblocks{
-	
-}  
+/*rest of homepage*/  
 
 /* Illuvatarism Block */
 .iluvatarism{
 	display: flex;
 	justify-content: center;
+	padding-bottom: 350px;
 	height: 300px;
-	width: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
-	.ilutext{
-		width: 50%;
-	
+.ilutext{
+	width: 50%;
 	text-align: center;	
 	padding: 50px;
 }	
-	.iluimage{
-		width: 50%;
-		text-align: center;
-		padding-top: 50px;
-	}
-
+.iluimage{
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+}
 .ilulink{
 	box-shadow: 10px 10px 5px grey;
 }
+
 
 /* Melkorism Block */
 .melkorism{
 	display: flex;
 	justify-content: center;
+	padding-bottom: 350px;
 	height: 300px;
-	width: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-	.meltext{
-		width: 50%;
-		text-align: center;
-		padding: 50px;
-	}
-	.melimage{
-		width: 50%;
-	}
+.meltext{
+	width: 50%;
+	text-align: center;
+	padding: 50px;
+}
 .melimage{
-			width: 50%;
-		text-align: center;
-		padding-top: 50px;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
 }
 
 /* Cultures Block */
@@ -134,22 +126,24 @@ html, body {
 	display: flex;
 	justify-content: center;
 	height: 300px;
-	width: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
-	.cultext{
-		width: 50%;
-		text-align: center;
-		padding: 50px;
-	}
-	.culimage{
-		width: 50%;
-	}
+.cultext{
+	width: 50%;
+	text-align: center;
+	padding: 50px;
+}
+.culimage{
+	width: 50%;
+}
+
+
 
 .bottompage{
 	text-align: center;
-	
 }
-
 .Tbeliefs{
 	width: 300px;
 	margin-left: auto;
@@ -158,6 +152,9 @@ html, body {
 	padding-bottom: 20px;
 }
 
+
+/*Other Pages*/
+
 /* Text for Illuvatarism Page */
 .ilupage{
 	text-align: center;
@@ -165,7 +162,27 @@ html, body {
 	margin-left: auto;
     margin-right: auto;
 }
-
+/* Text for Melkorism Page */
+.melpage{
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/* Text for Cultures Page*/
+.culturepage{
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*Text for beliefs page*/
+.beliefpage{
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
 /* Text for fair use page */
 .fairusetext{
   text-align: center;
@@ -175,3 +192,4 @@ html, body {
   margin: 20px auto;
 
 }
+
