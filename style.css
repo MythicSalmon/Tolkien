@@ -12,7 +12,17 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 /* Menu Bar*/
 
