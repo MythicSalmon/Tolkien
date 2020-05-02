@@ -12,6 +12,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+
 a:link {
   color: black;
   background-color: transparent;
@@ -84,7 +85,13 @@ a:visited {
 }
 
 /*rest of homepage*/  
-
+.intro{
+	padding-top: 70px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 /* Illuvatarism Block */
 .iluvatarism{
 	display: flex;
