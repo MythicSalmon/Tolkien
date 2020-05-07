@@ -170,6 +170,13 @@ a:visited {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
+.analysislink{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
 
 
 /*Other Pages*/
@@ -212,6 +219,13 @@ a:visited {
 }
 /* Text for Dictionary */
 .dictionary{
+	text-align: center;
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.analysis{
 	text-align: center;
 	width: 700px;
 	margin-left: auto;
